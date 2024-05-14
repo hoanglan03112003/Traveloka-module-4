@@ -236,40 +236,40 @@ function FooterAirplaneComponent() {
           <div className="flex">
             <ul className="px-8 w-6/12">
             <h1 className="text-white font-semibold text-xl mb-1">Về Traveloke</h1>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Cách đặt chỗ</a>
               </li>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">liên hệ chúng tôi</a>
               </li>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Trợ giúp</a>
               </li>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Tuyển dụng</a>
               </li>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Về chúng tôi</a>
               </li>
               <div className="mt-12">
               <h1 className="text-white font-semibold text-xl mb-1 w-64">Theo dõi chúng tôi trên</h1>
-                <li className="flex items-center py-2 text-gray-400 text-sm">
+                <li className="flex items-center py-2 text-gray-400 text-sm hover:underline hover:text-white">
                   <FaFacebook />
                   <a className="ml-2" href="#">Facebook</a>
                 </li>
-                <li className="flex items-center py-2 text-gray-400 text-sm">
+                <li className="flex items-center py-2 text-gray-400 text-sm hover:underline hover:text-white">
                   <FaInstagram />
                   <a className="ml-2" href="#">Instargam</a>
                 </li>
-                <li className="flex items-center py-2 text-gray-400 text-sm">
+                <li className="flex items-center py-2 text-gray-400 text-sm hover:underline hover:text-white">
                   <FaTiktok />
                   <a className="ml-2" href="#">TikTok</a>
                 </li>
-                <li className="flex items-center py-2 text-gray-400 text-sm">
+                <li className="flex items-center py-2 text-gray-400 text-sm hover:underline hover:text-white">
                   <FaYoutube />
                   <a className="ml-2" href="#">Youtube</a>
                 </li>
-                <li className="flex items-center py-2 text-gray-400 text-sm">
+                <li className="flex items-center py-2 text-gray-400 text-sm hover:underline hover:text-white">
                   <FaTelegram />
                   <a className="ml-2" href="#">Telegram</a>
                 </li>
@@ -277,52 +277,52 @@ function FooterAirplaneComponent() {
             </ul>
             <ul className="px-8 w-6/12">
               <h1 className="text-white font-semibold text-xl mb-1">Sản phẩm</h1>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Khách sạn</a>
               </li>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Vé máy bay</a>
               </li>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Vé đưa đón</a>
               </li>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Đưa đón sân bay</a>
               </li>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Car Rental</a>
               </li>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Xperience</a>
               </li>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Cruises</a>
               </li>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Biệt thự</a>
               </li>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Căn hộ</a>
               </li>
             </ul>
             <ul className="px-8">
             <h1 className="text-white font-semibold text-xl mb-1">Khác</h1>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Traveloke Affiliate</a>
               </li>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Traveloke Blog</a>
               </li>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Chính Sách Quyền Riêng</a>
               </li>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Điều khoản & Điều kiện</a>
               </li>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Quy chế hoạt động</a>
               </li>
-              <li className="py-2 text-gray-400 text-sm">
+              <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Đăng ký nơi nghỉ của bạn</a>
               </li>
               <li className="py-2 text-gray-400 text-sm">

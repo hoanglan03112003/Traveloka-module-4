@@ -4,7 +4,6 @@ import FooterAirplaneComponent from "./Component/traveloke-airplane/footerAirpla
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import MainAipPlane from "./Component/traveloke-airplane/MainAipPlane";
 import MainRentCarComponent from "./Component/traveloke-rentcar/MainRentCarComponent";
-import Appss from "./Component/traveloke-rentcar/test";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
             <Route path="/Air" element={<MainRentCarComponent />}/>
           </Routes>
       <FooterAirplaneComponent />
-      {/* <Appss /> */}
     </>
   );
 }
