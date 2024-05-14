@@ -3,16 +3,10 @@ import { FaRegDotCircle } from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
 
 function FormRentcar() {
-  const [isOpen, setisOpen] = useState(false);
-  const handleclick1 = () => {
-    setisOpen(true);
-    setisOpen2(false);
-  };
-  const [isOpen2, setisOpen2] = useState(false);
-  const handleclick2 = () => {
-    setisOpen2(true);
-    setisOpen(false);
-  };
+  const [rentalOptions,setRentOptions] = useState("selfDrive")
+  const handleOptions = (option) =>{
+    setRentOptions(option)
+  }
   const [isOpenMap, setIsopenmap] = useState(false);
   const handleOpenMap = () => {
     setIsopenmap(!isOpenMap);
@@ -56,19 +50,21 @@ function FormRentcar() {
               <p className="text-lg font-medium">Cho thuê xe </p>
               <div className="flex gap-1 items-center">
                 <input
-                  onClick={handleclick1}
+                  onClick={() =>handleOptions("selfDrive")}
                   type="radio"
                   name="rentalOption"
                   id="selfDrive"
+                  checked={rentalOptions === "selfDrive"}
                 />
                 <label>Tự lái</label>
               </div>
               <div className="flex gap-1 items-center">
                 <input
-                  onClick={handleclick2}
+                  onClick={() =>handleOptions("withDrive")}
                   type="radio"
                   name="rentalOption"
                   id="withDriver"
+                  checked={rentalOptions === "withDrive"}
                 />
                 <label>Có tài xế</label>
               </div>
@@ -112,7 +108,7 @@ function FormRentcar() {
                   id=""
                 />
               </div>
-              {isOpen && (
+              {rentalOptions === "selfDrive" && (
                 <>
                   <div className="flex gap-8">
                     <div>
@@ -145,7 +141,7 @@ function FormRentcar() {
                   </div>
                 </>
               )}
-              {isOpen2 && (
+              {rentalOptions === "withDrive" && (
                 <>
                   <div className="flex gap-5">
                     <div>

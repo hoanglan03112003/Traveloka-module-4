@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { CiClock2 } from "react-icons/ci";
 import {
   IoAirplane,
   IoCalendar,
@@ -32,7 +31,7 @@ function FormAirplaneComponent() {
                           <IoAirplane />
                         </label>
                         <input
-                          className="border-l border-gray-400 w-52 py-1 px-1 outline-none"
+                          className="border-l border-gray-400 w-52 py-1 px-1 outline-none cursor-pointer"
                           type="text" placeholder="ví dụ sân bay quốc tế Narita"
                         />
                       </div>
@@ -47,8 +46,8 @@ function FormAirplaneComponent() {
                           <IoMap />
                         </label>
                         <input
-                          className="border-l border-gray-400 w-52 py-1 px-1 outline-none"
-                          type="text" placeholder="ví dụ Trung tâm mua sắm AEON tân phú"
+                          className="border-l border-gray-400 w-52 py-1 px-1 outline-none cursor-pointer"
+                          type="text" placeholder="ví dụ Trung tâm mua sắm AEON tân phú" 
                         />
                       </div>
                     </div>
@@ -65,7 +64,7 @@ function FormAirplaneComponent() {
                           <IoMap />
                         </label>
                         <input
-                          className="border-l border-gray-400 w-52 py-1 px-1 outline-none"
+                          className="border-l border-gray-400 w-52 py-1 px-1 outline-none cursor-pointer"
                           type="text" 
                           placeholder="ví dụ Trung tâm AEON bình tân"
                         />
@@ -81,7 +80,7 @@ function FormAirplaneComponent() {
                           <IoAirplane />
                         </label>
                         <input
-                          className="border-l border-gray-400 w-52 py-1 px-1 outline-none"
+                          className="border-l border-gray-400 w-52 py-1 px-1 outline-none cursor-pointer"
                           type="text"
                           placeholder="ví dụ Sân bay tân sơn nhất"
                         />
@@ -98,18 +97,21 @@ function FormAirplaneComponent() {
                   <IoCalendar />
                 </label>
                 <input
-                  className="border-l border-gray-400 py-1 px-1 outline-none"
+                  className="border-l border-gray-400 py-1 px-1 outline-none cursor-pointer"
+                  id="start"
+                  name="trip-start"
                   type="date"
+                  value="2024-5-12"
                 />
               </div>
             </div>
             <div>
               <h1 className="text-md font-medium">Giờ đón</h1>
               <div className="flex items-center border border-gray-400 rounded-md">
-                  {/* <CiClock2 /> */}
                 <input
-                  className="py-1 px-1 outline-none"
+                  className="py-1 px-1 outline-none cursor-pointer"
                   type="time"
+                  value="18:32"
                 />
               </div>
             </div>

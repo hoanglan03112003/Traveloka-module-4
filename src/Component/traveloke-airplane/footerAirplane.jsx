@@ -9,16 +9,16 @@ import { FaYoutube } from "react-icons/fa";
 function FooterAirplaneComponent() {
   return (
     <>
-      <div className=" bg-[#1C2930] mt-28"> 
-        <div className="flex max-w-[1220px] m-auto justify-between py-10 items-center h-screen">
+      <div className=" bg-[#1C2930] mt-28">
+        <div className="flex max-w-[1220px] m-auto justify-between items-center pb-20 pt-9">
           <div className="">
-            <div className="mb-1">
+            <div className="">
               <img
                 src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/a/ad89f39fe62c8b500e6f9a25fa4427d8.svg"
                 alt=""
               />
             </div>
-            <div className="flex flex-wrap">
+            <div className="flex gap-5 flex-wrap">
               <img
                 src="https://ik.imagekit.io/tvlk/image/imageResource/2017/12/13/1513150321127-5096be77d2a19401b476853e54ba2cc6.svg?tr=h-35,q-75"
                 alt=""
@@ -32,10 +32,14 @@ function FooterAirplaneComponent() {
                 alt=""
               />
             </div>
-            <button className="py-4 bg-[#354148] w-64 rounded-lg mt-6">Hợp tác với Traveloka</button>
-            <h1></h1>
+            <button className="flex justify-center items-center gap-4 py-4 text-white bg-[#354148] w-64 rounded-lg mt-6">
+              <FaHandshake className="mt-[3px] text-xl" />
+              <a href="#">Hợp tác với Traveloka</a>
+            </button>
             <div>
-                <h1 className="text-white font-medium mt-3 mb-3">Đối tác thanh toán</h1>
+              <h1 className="text-white font-medium mt-3 mb-3">
+                Đối tác thanh toán
+              </h1>
               <div className="grid grid-cols-4 py-1.5 gap-2">
                 <div>
                   <img
@@ -235,7 +239,9 @@ function FooterAirplaneComponent() {
           </div>
           <div className="flex">
             <ul className="px-8 w-6/12">
-            <h1 className="text-white font-semibold text-xl mb-1">Về Traveloke</h1>
+              <h1 className="text-white font-semibold text-xl mb-1">
+                Về Traveloke
+              </h1>
               <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Cách đặt chỗ</a>
               </li>
@@ -252,31 +258,45 @@ function FooterAirplaneComponent() {
                 <a href="#">Về chúng tôi</a>
               </li>
               <div className="mt-12">
-              <h1 className="text-white font-semibold text-xl mb-1 w-64">Theo dõi chúng tôi trên</h1>
+                <h1 className="text-white font-semibold text-xl mb-1 w-64">
+                  Theo dõi chúng tôi trên
+                </h1>
                 <li className="flex items-center py-2 text-gray-400 text-sm hover:underline hover:text-white">
                   <FaFacebook />
-                  <a className="ml-2" href="#">Facebook</a>
+                  <a className="ml-2" href="#">
+                    Facebook
+                  </a>
                 </li>
                 <li className="flex items-center py-2 text-gray-400 text-sm hover:underline hover:text-white">
                   <FaInstagram />
-                  <a className="ml-2" href="#">Instargam</a>
+                  <a className="ml-2" href="#">
+                    Instargam
+                  </a>
                 </li>
                 <li className="flex items-center py-2 text-gray-400 text-sm hover:underline hover:text-white">
                   <FaTiktok />
-                  <a className="ml-2" href="#">TikTok</a>
+                  <a className="ml-2" href="#">
+                    TikTok
+                  </a>
                 </li>
                 <li className="flex items-center py-2 text-gray-400 text-sm hover:underline hover:text-white">
                   <FaYoutube />
-                  <a className="ml-2" href="#">Youtube</a>
+                  <a className="ml-2" href="#">
+                    Youtube
+                  </a>
                 </li>
                 <li className="flex items-center py-2 text-gray-400 text-sm hover:underline hover:text-white">
                   <FaTelegram />
-                  <a className="ml-2" href="#">Telegram</a>
+                  <a className="ml-2" href="#">
+                    Telegram
+                  </a>
                 </li>
               </div>
             </ul>
             <ul className="px-8 w-6/12">
-              <h1 className="text-white font-semibold text-xl mb-1">Sản phẩm</h1>
+              <h1 className="text-white font-semibold text-xl mb-1">
+                Sản phẩm
+              </h1>
               <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Khách sạn</a>
               </li>
@@ -306,7 +326,7 @@ function FooterAirplaneComponent() {
               </li>
             </ul>
             <ul className="px-8">
-            <h1 className="text-white font-semibold text-xl mb-1">Khác</h1>
+              <h1 className="text-white font-semibold text-xl mb-1">Khác</h1>
               <li className="py-2 text-gray-400 text-sm hover:underline hover:text-white">
                 <a href="#">Traveloke Affiliate</a>
               </li>
@@ -333,18 +353,33 @@ function FooterAirplaneComponent() {
               </li>
 
               <div>
-              <h1 className="text-white font-semibold text-xl mt-4 w-64">Tải ứng dụng Traveloka</h1>
-                <img className="mt-2" src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/f/f519939e72eccefffb6998f1397901b7.svg" alt="" />
-                <img className="mt-2" src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/1/18339f1ae28fb0c49075916d11b98829.svg" alt="" />
+                <h1 className="text-white font-semibold text-xl mt-4 w-64">
+                  Tải ứng dụng Traveloka
+                </h1>
+                <img
+                  className="mt-2"
+                  src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/f/f519939e72eccefffb6998f1397901b7.svg"
+                  alt=""
+                />
+                <img
+                  className="mt-2"
+                  src="https://d1785e74lyxkqq.cloudfront.net/_next/static/v2/1/18339f1ae28fb0c49075916d11b98829.svg"
+                  alt=""
+                />
               </div>
             </ul>
           </div>
         </div>
-          <div className="border border-gray-600 mb-5"></div>
-          <div className="py-5 m-auto">
-          <p className="text-center text-gray-400 text-[12px]">Công ty TNHH Traveloka Việt Nam. Mã số DN: 0313581779. Tòa nhà An Phú, 117-119 Lý Chính Thắng, P. 7, Q. 3, TPHCM</p>
-          <p className="text-center font-medium text-white">Copyright © 2024 Traveloka. All rights reserved</p>
-          </div>
+        <div className="border border-gray-600 mb-5"></div>
+        <div className="py-5 m-auto">
+          <p className="text-center text-gray-400 text-[12px]">
+            Công ty TNHH Traveloka Việt Nam. Mã số DN: 0313581779. Tòa nhà An
+            Phú, 117-119 Lý Chính Thắng, P. 7, Q. 3, TPHCM
+          </p>
+          <p className="text-center font-medium text-white">
+            Copyright © 2024 Traveloka. All rights reserved
+          </p>
+        </div>
       </div>
     </>
   );
